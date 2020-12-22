@@ -50,7 +50,7 @@ import farmasalud.operaciones.OCabeceraPedidos;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.stream.Collectors;
-import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
+
 
 /**
  *

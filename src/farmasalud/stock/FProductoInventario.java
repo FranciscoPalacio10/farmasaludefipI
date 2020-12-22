@@ -13,7 +13,7 @@ import javax.swing.JComboBox;
 import javax.swing.RowFilter;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
-import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
+
 
 /**
  *
