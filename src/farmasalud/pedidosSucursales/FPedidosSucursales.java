@@ -581,7 +581,7 @@ public class FPedidosSucursales extends javax.swing.JFrame {
     private void btnSeleccionarNombreComercialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSeleccionarNombreComercialActionPerformed
         JComboBox sModel = new javax.swing.JComboBox<>();
         sModel.setFont(font);
-        AutoCompleteDecorator.decorate(sModel);
+     //   AutoCompleteDecorator.decorate(sModel);
         List<Integer> a = manager.getDetallePedidos().obtenerTodos().stream().collect(Collectors.groupingBy(s -> s.getIdProducto())).keySet()
                 .stream().distinct().collect((Collectors.toList()));
         a.forEach((Integer as) -> {

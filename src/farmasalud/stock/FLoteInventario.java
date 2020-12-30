@@ -48,7 +48,7 @@ public class FLoteInventario extends javax.swing.JFrame {
         llenarTabla();
         listenerFechaDesde();
         listenerFechaHasta();
-        AutoCompleteDecorator.decorate(jComboLote);
+    //    AutoCompleteDecorator.decorate(jComboLote);
         modelo = tableInventario.getModel();
         sorter = new TableRowSorter(modelo);
         tableInventario.setRowSorter(sorter);

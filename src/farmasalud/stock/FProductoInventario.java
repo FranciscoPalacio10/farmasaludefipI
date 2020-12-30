@@ -39,8 +39,8 @@ public class FProductoInventario extends javax.swing.JFrame {
         llenarTabla();
         manager.getProductos().obtenerTodos().forEach((e) -> jComboIdProducto.addItem(String.valueOf(e.getIdProducto())));
         obtenerNombreProducto().forEach((e) -> jComboNombreComercial.addItem(e));
-        AutoCompleteDecorator.decorate(jComboIdProducto);
-        AutoCompleteDecorator.decorate(jComboNombreComercial);
+      //  AutoCompleteDecorator.decorate(jComboIdProducto);
+      //  AutoCompleteDecorator.decorate(jComboNombreComercial);
         bloquerBoton();
         sorter = new TableRowSorter(tableProductoInvetario.getModel());
         tableProductoInvetario.setRowSorter(sorter);
